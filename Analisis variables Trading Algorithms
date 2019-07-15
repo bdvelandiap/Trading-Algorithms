@@ -1,0 +1,71 @@
+Trading Algorithm 1
+Variable: positive_sentiment_pct
+Define un factor de porcentaje de sentimiento positivo, dividiendo la
+cantidad  de  mensajes  calificados  por la cantidad total de mensajes
+escaneados.
+
+Variable: quarterly_sales
+Las ganancias de la venta de activos fijos, como propiedades, planta 
+y equipo, que también incluyen el retiro de equipos.
+
+Variable: Score
+Una puntuación de alto valor indica que el precio de una accion es
+relativamente bajo, dados los ingresos por participacion, el valor 
+contable, los ingresos, el flujo de caja y los dividendos anticipados
+que la accion proporciona a los inversores. Un precio alto en relacion
+con estas medidas indica que la orientacion hacia el valor de una 
+acción es debil, pero no significa necesariamente que la accion este
+orientada al crecimiento.
+
+En el test de el ultimo año tuvo un rendimiento de -2.70%
+En el test de los 2 ultimos años tuvo un rendimiento de -9.63%
+
+Trading Algorithm 2
+
+Variable: leases
+El importe en libros en la fecha del balance de un activo depreciable
+y de larga duración que es una adición o mejora a los activos
+mantenidos en virtud del acuerdo de arrendamiento. Este articulo 
+generalmente no está disponible para la industria de seguros.
+
+Variable: payables
+La suma de todas las cuentas por pagar adeudadas y que se espera 
+que se paguen dentro de un año o un ciclo operativo, incluidas las
+cuentas por pagar, los impuestos por pagar, los dividendos por 
+pagar y todas las demás cuentas por pagar corrientes.
+
+Variable: ratio_pe5_year_average
+Se refiere a la proporción de Activos Corrientes a Pasivos Corrientes. Morningstar calcula la proporción mediante el uso de los datos 
+subyacentes informados en el Balance general dentro de las presentaciones
+o informes de la compañía: Activos actuales / Pasivos actuales.
+
+En el test de el ultimo año tuvo un rendimiento d -1.86%
+En el test de los 2 ultimos años tuvo un rendimiento de -11.02%
+
+
+Trading Algorithm 3
+
+Variable: receivables
+La suma de todas las cuentas por cobrar de clientes y afiliados 
+dentro de un año, incluidas las cuentas por cobrar, los documentos
+por cobrar, las primas por cobrar y otras cuentas por cobrar corrientes.
+
+Variable: gain_on_sale_of_business
+La cantidad de exceso ganada en comparación con el valor razonable
+al vender una empresa. Este articulo generalmente no está disponible
+para la industria de seguros.
+
+Variable: gross_profit
+Ingresos totales menos costo de ingresos. El numero es según lo
+informado por la compañía en el estado de resultados; sin embargo,
+el numero se calculara si no se informa. Este campo es nulo si no
+se indica el costo de los ingresos. Ganancia bruta = Ingresos 
+totales - Costo de ingresos.
+
+En el test de el ultimo año tuvo un rendimiento d -1.05%
+En el test de los 2 ultimos años tuvo un rendimiento de -5.05%
+
+
+Nota: Al construir combined_factor se le asignan unos pesos a cada
+una de las variables respecto a las demás multiplicandolas por un
+valor de 0 a 1
